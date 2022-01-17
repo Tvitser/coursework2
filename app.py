@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
-from functions import open_json, count_comments, get_comments_by_pk, replace_hashtags_with_links, \
-    search_post_by_username, search_post_by_key
+from functions import open_json, count_comments, get_comments_by_pk, replace_hashtags_with_links, search_post_by_username, search_post_by_key
 
 app = Flask("__name__")
 
